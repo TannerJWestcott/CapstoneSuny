@@ -1,0 +1,15 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url(http://www.transparenttextures.com/patterns/carbon-fibre.png);
+  background-color: #2e2e2e; }
+
+#mainHead {
+  font-family: "Aldrich", sans-serif;
+  color: #99000e;
+  font-size: 50px;
+  text-align: center; }
+
+.test {
+  color: white;
+  font-family: "Aldrich", sans-serif; }
