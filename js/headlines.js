@@ -6,6 +6,8 @@
       var author = [];
       var description = [];
       var images = [];
+      var links = [];
+
       //var imArrayLength = data.feed[1].images.length;
 
 
@@ -14,10 +16,10 @@
 
 
     for(var i=0;i<10;++i){
-
       news[i] = data.feed[i].headline;
       author[i] = data.feed[i].byline;
       description[i] = data.feed[i].description;
+      links[i] = data.feed[i].links;
     }
 
     for(var a=0;a<10;a++){
@@ -30,9 +32,9 @@
 	for(var j=0;j<10;j++){
 	
 	$("<h1/>",{
-        "id": "headline",
-		html: news[j]        
-      }).appendTo(".test");
+      "id": "headline",
+		  html: "<a target='_blank' href='" + links[j].web.href + "'>" + news[j]  + "</a>"    
+      }).appendTo(".test"); 
 
       $("<h2/>",{
         "id": "byline",
@@ -49,6 +51,7 @@
         "src": images[j]       
       }).appendTo(".test"); 
 	  
+    $("<hr>").appendTo(".test");
 	  }
 	/*
       $("<h1/>",{

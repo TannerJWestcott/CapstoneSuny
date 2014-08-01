@@ -4,6 +4,15 @@ body {
   background-image: url(http://www.transparenttextures.com/patterns/carbon-fibre.png);
   background-color: #2e2e2e; }
 
+  a {
+    color:white;
+  }
+
+  a:hover {
+    color:lime;
+  }
+
+
 #mainHead {
   font-family: "Aldrich", sans-serif;
   color: #99000e;
@@ -13,3 +22,9 @@ body {
 .test {
   color: white;
   font-family: "Aldrich", sans-serif; }
+
+
+
+hr {
+  border:1px solid #99000e;
+}
