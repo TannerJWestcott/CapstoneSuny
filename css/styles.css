@@ -11,6 +11,10 @@ body {
   a:hover {
     color:lime;
   }
+  
+  a:visited{
+	color:purple;
+	}
 
 
 #mainHead {

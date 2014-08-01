@@ -33,7 +33,7 @@
 	
 	$("<h1/>",{
       "id": "headline",
-		  html: "<a target='_blank' href='" + links[j].web.href + "'>" + news[j]  + "</a>"    
+		  html: "<a  href='" + links[j].web.href + "' target= '_blank'>" + news[j]  + "</a>"    
       }).appendTo(".test"); 
 
       $("<h2/>",{
