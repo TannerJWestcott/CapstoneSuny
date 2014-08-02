@@ -9,8 +9,8 @@ body {
   }
 
   a:hover {
-    color:lime;
-  }
+    color:orange;
+  } 
   
   a:visited{
 	color:purple;
